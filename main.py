@@ -1,4 +1,4 @@
-import sklearn
+from sklearn import tree
 
 # //Apple: 0 and Orange: 1
 features = [[140, 1], [130, 1], [150, 0], [170, 0]]
