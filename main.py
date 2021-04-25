@@ -8,3 +8,5 @@ labels = [0,0,1,1]
 clf = tree.DecisionTreeClassifier()
 # // categoring the content i.e feature and labels
 clf = clf.fit(features,labels)
+# // Predict what the output at given value
+print(clf.predict([150,0]))
